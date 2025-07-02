@@ -471,7 +471,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Professional Support
 - **Email**: vaibhavnsingh07@gmail.com
-- **LinkedIn**: [Connect for collaboration](www.linkedin.com/in/vaibhav-singh-0b41a1359)
+- **LinkedIn**: [Connect for collaboration](https://www.linkedin.com/in/vaibhav-singh-0b41a1359/)
 
 ## 📊 Statistics
 
