@@ -224,33 +224,21 @@ text
 
 ### System Modes
 
-#### 1. Comprehensive Test Mode
+To start the system, simply run:
+```bash
 python main.py
+```
 
-Choose option 1
-text
-Tests all components including ML models, weather integration, and smart irrigation logic.
+After running `main.py`, the following happens automatically:
+- **Voice Recognition** (Hindi, Gujarati, Telugu) and **Gesture Recognition** are activated in real time.
+- **Manual override:** Any recognized voice or gesture command for irrigation will immediately start or stop irrigation, overriding automation.
+- **Smart Irrigation Logic:** The system continuously monitors soil moisture, weather, and rain prediction to make automatic irrigation decisions.
+- **Crop & Fertilizer Recommendation:** The system can provide crop and fertilizer suggestions using trained ML models (if models are set up).
+- **Multi-Farm Management:** You can manage and monitor multiple farms from a single system.
+- **Emotion Detection (Pluggable):** Placeholder logic is present for farmer stress/urgency analysis, ready for model integration.
+- **Real-Time Dashboard/Status:** The system prints real-time status updates and analytics to the console.
 
-#### 2. Production Mode (Phase 1)
-python main.py
-
-Choose option 2
-text
-Runs core zero-UI irrigation system with voice and gesture control.
-
-#### 3. Phase 2 Test Mode
-python main.py
-
-Choose option 3
-text
-Tests advanced features: emotion detection, yield prediction, IoT integration, multi-farm management.
-
-#### 4. Phase 2 Production Mode
-python main.py
-
-Choose option 4
-text
-Full advanced system with all AI features and multi-farm capabilities.
+No additional menu selection is required—**all core features are enabled by default** when you run `main.py`.
 
 ## 📊 Performance Metrics
 
@@ -409,13 +397,7 @@ text
 - **Mobile App Development** (companion app)
 - **Hardware Optimization** (edge computing, power efficiency)
 
-## 📚 Documentation
 
-- **[API Documentation](docs/api.md)** - Complete API reference
-- **[Hardware Guide](docs/hardware.md)** - Detailed hardware setup
-- **[Model Training](docs/training.md)** - Train your own models
-- **[Deployment Guide](docs/deployment.md)** - Production deployment
-- **[Troubleshooting](docs/troubleshooting.md)** - Common issues and solutions
 
 ## 🐛 Troubleshooting
 
@@ -463,12 +445,7 @@ text
 - [ ] **Advanced Disease Detection** using computer vision
 - [ ] **Market Price Integration** for crop planning
 
-### Version 3.0 (Future)
-- [ ] **AI-Powered Crop Planning**
-- [ ] **Automated Harvesting Integration**
-- [ ] **Carbon Credit Tracking**
-- [ ] **Global Weather Pattern Analysis**
-- [ ] **Satellite Imagery Integration**
+
 
 ## 📄 License
 
@@ -483,15 +460,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **OpenWeatherMap** for weather data
 - **MediaPipe** for hand tracking
 
-### Research Institutions
-- **Indian Agricultural Research Institute**
-- **Punjab Agricultural University**
-- **Tamil Nadu Agricultural University**
 
-### Open Source Community
-- Contributors and testers worldwide
-- Agricultural technology enthusiasts
-- Indian farming community feedback
+
 
 ## 📞 Support
 
