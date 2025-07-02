@@ -15,6 +15,23 @@ The **Zero-UI Smart Farming System** is a groundbreaking agricultural automation
 ### 🌟 Key Innovation
 **World's first Zero-UI agricultural system** - No screens, no buttons, no apps. Just natural voice and gesture control.
 
+## 🆕 Key Features & Updates (July 2024)
+
+### Crop & Fertilizer Prediction
+Fully integrated crop and fertilizer recommendation using trained machine learning models. The system provides accurate crop and fertilizer suggestions based on real-time sensor data and user input. Clear instructions are provided for setting up and using the required model files.
+
+### Weather-Aware Smart Irrigation
+The auto irrigation logic now incorporates real-time weather forecasting. If rain is predicted in the next few hours, the system will automatically skip irrigation, conserving water and optimizing resource usage.
+
+### Multi-Farm Management
+The platform includes robust multi-farm management logic, allowing users to register, monitor, and analyze multiple farms from a single dashboard. This feature is ready for use and future expansion.
+
+### Emotion Detection (Pluggable)
+A placeholder for emotion and stress detection is present in the system. Once a suitable model is available, it can be easily integrated to provide real-time farmer stress and urgency analysis, enhancing safety and user experience.
+
+### Manual Override Logic
+Manual voice and gesture commands always take priority over automatic logic for irrigation. The system supports robust, language-adaptive matching in Hindi, Gujarati, and Telugu, ensuring that farmer intent is always respected regardless of automation state.
+
 ## ✨ Features
 
 ### 🎤 Multi-Language Voice Control
@@ -256,37 +273,7 @@ Full advanced system with all AI features and multi-farm capabilities.
 - **Farmer Stress Detection**: Real-time emotion analysis
 - **Multi-Farm Scalability**: Tested with multiple farm management
 
-## 🎯 API Documentation
 
-### REST API Endpoints
-
-Get all farms status
-GET /api/farms
-Headers: User-ID: admin
-
-Create new farm
-POST /api/farms
-{
-"farm_id": "farm_001",
-"name": "Alpha Farm",
-"location": "Punjab, India",
-"area_hectares": 5.0,
-"crop_type": "rice"
-}
-
-Control irrigation
-POST /api/farms/{farm_id}/irrigation
-{
-"action": "start" | "stop"
-}
-
-Get analytics
-GET /api/analytics
-
-Get dashboard data
-GET /api/dashboard
-
-text
 
 ### Voice API Integration
 
@@ -392,12 +379,7 @@ text
 - **Crop Health Monitoring**: Early detection of stress and diseases
 - **Yield Optimization**: Predictive analytics for better harvest planning
 
-## 🏆 Awards and Recognition
 
-- **Innovation in Agricultural Technology**
-- **Best Zero-UI Interface Design**
-- **Outstanding ML Accuracy in Agriculture**
-- **Cultural Adaptation Excellence**
 
 ## 🤝 Contributing
 
