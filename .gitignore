@@ -1,0 +1,93 @@
+# Large Model Files (Exclude from Git)
+models/
+vosk-model-*/
+voice/models/
+*.pkl
+*.h5
+*.model
+*.bin
+*.pb
+*.tflite
+*.joblib
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+env/
+.env
+
+# Data files
+data/
+datasets/
+*.csv
+logs/
+*.log
+
+# Audio/Video
+*.wav
+*.mp3
+*.mp4
+*.avi
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
+
+# Ignore Python virtual environments
+venv/
+.env
+
+# Ignore model and data files
+*.pkl
+*.h5
+*.pt
+*.joblib
+*.npy
+*.npz
+*.csv
+*.xlsx
+*.zip
+*.7z
+
+# Ignore large model/data folders
+ffmpeg-release-full/
+vosk-model-*/
+models/
+logs/
+__pycache__/
+*.log
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+
+# Ignore large and unnecessary folders
+models/
+logs/
+ffmpeg-release-full/
+venv/
+__pycache__/
+
+# Ignore data, audio, and binary files
+*.pkl
+*.h5
+*.joblib
+*.zip
+*.7z
+*.mp4
+*.wav
+*.mp3
+*.log
+.DS_Store
+Thumbs.db
+.env
+
+# Ignore test scripts and audio files
+test_*.py
+*.wav
